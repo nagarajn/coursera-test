@@ -1,21 +1,26 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
+    font-family:sans-serif;
 }
 
 h1 {
     margin-bottom: 15px;
     font-size: 1.75;
     text-align: center;
+
 }
 
 .div_text {
-    background-color: gainsboro;
-    font-family: Helvetica;
+    background-color: #999999;
     color: black;
     clear: both;
     overflow: hidden;
     height: 100px;
+    padding: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+
 }
 
 .div_hdr {
@@ -23,29 +28,32 @@ h1 {
     height: 30px;
     position: relative;
     background-color: pink;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
     font-size: 1.25em;
     width: 150px;
     text-align: center;
     font-weight: bold;
+
 }
 
 .box {
-    background-color: gainsboro;
-    border: 1px solid black;
-    margin: 5px;
+    background-color: #999999;
+    border: 2px solid black;
+    margin: 10px;
 }
 
 #div_hdr1 {
-    background-color: pink;
+    background-color: #d59898;
 }
 
 #div_hdr2 {
-    background-color: palevioletred;
+    background-color: #c14543;
 }
 
 #div_hdr3 {
-    background-color: palegoldenrod;
+    background-color: #e5d198;
 }
 
 /********** Large devices only **********/
