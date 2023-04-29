@@ -1,0 +1,12 @@
+
+@media (min-width: 768px) {
+    #nav_item_dropdown {
+        display: none;  
+    }
+}
+
+@media (max-width: 767px) {
+    #nav_item_dropdown {
+        display:block;
+    }
+}
